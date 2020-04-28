@@ -29,18 +29,23 @@ while (true) {
     }
 }
 
-//Extra practice question for lab below (did not do part two challenge)
+//Extra practice question for lab below 
 
-// let hours = 41;
-// let wage = 10;
-// let pay = (hours * wage);
-// let overtime = (((hours - 40) * 15) + 400);
+let hours = 41;
+let wage = 10;
+let pay = (hours * wage);
+let overtime = (((hours - 40) * 15) + 400);
 
 
-// if (hours >= 40) {
-//     pay = overtime;
-// }
-// else {
-//     pay = (hours * wage);
-// }
-// console.log(pay);
+if (hours >= 50) {
+    pay = overtime;
+}
+else {
+    pay = (hours * wage);
+}
+console.log(pay);
+
+//number of weeks to make a million 
+
+let million = (1000000 / pay);
+console.log(`Working ${hours} hours at ${wage} dollars an hour every week, it would take a person ${million} weeks exactly to earn A million dollars. Yikes!`)
