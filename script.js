@@ -28,3 +28,19 @@ while (true) {
         break;
     }
 }
+
+//Extra practice question for lab below (did not do part two challenge)
+
+// let hours = 41;
+// let wage = 10;
+// let pay = (hours * wage);
+// let overtime = (((hours - 40) * 15) + 400);
+
+
+// if (hours >= 40) {
+//     pay = overtime;
+// }
+// else {
+//     pay = (hours * wage);
+// }
+// console.log(pay);
